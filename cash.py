@@ -7,7 +7,7 @@ def main():
             break
 
     centsOwed = int(change * 100)
-    print(cash(centsOwed))
+    cash(centsOwed)
 
 
 def cash(n):
@@ -20,6 +20,10 @@ def cash(n):
     print(f"Dimes: {int(dimes)}")
     print(f"Nickels: {int(nickels)}")
     print(f"Pennies: {int(pennies)}")
-    return int(quarters) + int(dimes) + int(nickels) + int(pennies)
 
-main()
+
+if __name__ == "__main__":
+    main()
+
+
+    
